@@ -1,0 +1,274 @@
+<!-- everything is about ryuu  -->
+
+<!-- you are the best girl i've ever seen  -->
+
+<!-- luv u <3  -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Rui ft Ryuu </title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="icon"
+      href="https://media.discordapp.net/attachments/563666711677501441/1010345674593796196/1660955559424.png"
+    />
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="./aos/aos.css" />
+
+    <meta property="og:type" content="website" />
+
+    <meta property="og:title" content="Langz" />
+
+    <meta
+      property="og:description"
+      content="loving ryuu everytime."
+    />
+
+    <meta property="og:image" content="https://cdn.discordapp.com/avatars/884467910494535741/bc234bcaa657eb4ecdf8f56a13c9cf9a.png?size=1024"/>
+
+    <meta name="theme-color" content="#22b4b7" />
+  </head>
+
+  <body>
+    <div id="particles-js"></div>
+
+    <div class="scroll-up-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="logo">
+          <a href="#home">RUI is Here<span></span></a>
+        </div>
+
+        <ul class="menu">
+          <li><a href="#home" class="menu-btn">Home</a></li>
+
+          <li>
+            <a href="#description" class="menu-btn" class="menu-btn">Description</a>
+          </li>
+
+          <li><a href="#about" class="menu-btn">About</a></li>
+        </ul>
+
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <section class="home" id="home">
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text-1">Hi Honey <3</div>
+
+          <div class="text-2">Ryuu</div>
+
+          <div class="text-3">You are <span class="typing"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="description" id="description">
+      <div class="max-width">
+        <h2 class="title">Rui & Ryuu</h2>
+        
+          <p align="center">Because you are the best, you are the perfect person for me.</p>
+        <p align="center">I love you so much.</p>
+            <p align="center">10 June 2021</p>
+        <p align="center">════════════════════════════</p>
+
+
+<?php
+    $date = "2021-06-10 01:28:00";
+?>
+ 
+<input type="hidden" id="date" value="<?php echo $date; ?>">
+
+<div id="data" style="float: center; text-align: center"></div>
+    
+<script>
+    function func() {
+        var dateValue = document.getElementById("date").value;
+        var date = Math.abs((new Date("2021-06-10 01:28:00").getTime() / 1000).toFixed(0));
+        var currentDate = Math.abs((new Date().getTime() / 1000).toFixed(0));
+ 
+        var diff = currentDate - date;
+ 
+        var days = Math.floor(diff / 86400);
+        var hours = Math.floor(diff / 3600) % 24;
+        var minutes = Math.floor(diff / 60) % 60;
+        var seconds = diff % 60;
+ 
+        var days = days;
+        if (days < 10) {
+            days = "0" + days;
+        }
+  
+        var hours = hours;
+        if (hours < 10) {
+            hours = "0" + hours;
+        }
+  
+        var minutes = minutes;
+        if (minutes < 10) {
+            minutes = "0" + minutes;
+        }
+  
+        var seconds = seconds;
+        if (seconds < 10) {
+            seconds = "0" + seconds;
+        }
+ 
+        if (days < 0 && hours < 0 && minutes < 0 && seconds < 0) {
+            days = "00";
+            hours = "00";
+            minutes = "00";
+            seconds = "00";
+ 
+            console.log("close");
+            if (typeof interval !== "undefined") {
+                clearInterval(interval);
+            }
+        }
+ 
+        document.getElementById("data").innerHTML = days + " days, " + hours + " hours, " + minutes + " minutes, " + seconds + " seconds.";
+    }
+ 
+    func();
+    var interval = setInterval(func, 1000);
+    
+</script>
+
+        
+            </div>
+          </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="max-width">
+          <h2 class="title">
+              🤍🤍🤍
+          </h2>
+          <div class="carousel owl-carousel">
+
+              <div class="cardd">
+                  <div class="boxx">
+                      <img src="https://cdn.discordapp.com/avatars/498092186848722944/f173fb07f826ae5fb75aed9b1e1230fe.png" alt>
+                      <div class="text">Rui</div>
+                      <p>
+                          <button class="badges owner">Owner</button>
+                          <button class="badges developer">Web Designer</button>
+                      </p>
+                  </div>
+              </div>
+        <div class="cardd">
+          <div class="boxx">
+              <img src="https://images-ext-2.discordapp.net/external/NHpr-5PP3IODXUHAJl3cYNij8FaT9yH1zQtdcdZ1TJk/%3Fsize%3D256/https/cdn.discordapp.com/avatars/761476279005610004/536d856dd332ba5e8a5a1b7727811fc6.png" alt>
+              <div class="text">Ryuu              </div>
+              
+              <p>
+                <button class="badges helper">Rui's Girlfriend</button>
+                <button class="badges supporter">Best Girl</button>
+              </p>
+          </div>
+      </div>
+      
+
+          </div>
+      </div>
+  </section>
+
+    <div class="loader-wrapper">
+      <img
+        src="https://cdn.discordapp.com/attachments/889523668252753931/928379313823313950/13335.gif"
+        alt="Loading..."
+      />
+
+      <div class="longfazers">
+        <span></span>
+
+        <span></span>
+
+        <span></span>
+
+        <span></span>
+      </div>
+    </div>
+
+    <footer>
+      <a
+        style="display: none;"
+        href="//www.dmca.com/Protection/Status.aspx?ID=04da08e3-40f5-4320-8093-86b1c519bf13"
+        title="DMCA.com Protection Status"
+        class="dmca-badge"
+      >
+        <img
+          src="https://images.dmca.com/Badges/dmca-badge-w150-5x1-07.png?ID=04da08e3-40f5-4320-8093-86b1c519bf13"
+          alt="DMCA.com Protection Status"
+      /></a>
+      <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
+
+      <a
+        style="display: none;"
+        href="https://www.dmca.com/compliance/Mikuni.gq"
+        title="DMCA Compliance information for Mikuni.gq"
+        ><img src="https://www.dmca.com/img/dmca-compliant-grayscale.png"
+      /></a>
+
+      <span
+        >Made with Love by
+        <a href="https://instagram.com/langz.ls" target="_blank">Langz</a
+        ><br />Copyright <span class="far fa-copyright"></span> Rui and Ryuu <3 2022</span
+      >
+    </footer>
+
+    <script src="./aos/aos.js"></script>
+
+    <script type="text/javascript">
+      AOS.init({
+        duration: 1000
+      });
+    </script>
+
+    <script src="script.js"></script>
+
+    <script src="stats.js"></script>
+
+    <script>
+      $(window).on("load", function() {
+        $(".loader-wrapper").fadeOut("slow");
+      });
+    </script>
+
+    <script src="./particles/particles.js"></script>
+
+    <script src="./particles/app.js"></script>
+  </body>
+</html>
