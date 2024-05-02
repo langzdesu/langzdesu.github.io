@@ -1,5 +1,5 @@
 # langzdesu.github.io
 
-> > <<><><>><<
+**RUI & RYUU**
 
-> > Rui FT Ryuu Love Story
+*Rui Ft Ryuu Love Story*
